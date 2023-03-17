@@ -1,0 +1,98 @@
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #00a7d0;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container button:hover {
+  background-color: #0190b1;
+}
+
+.contacts-container {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.contacts-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #e6e8ed;
+  border-radius: 4px;
+}
+
+.contact input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.actions button {
+  padding: 8px;
+  margin-right: 10px;
+  background-color: #00a7d0;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.actions button:hover {
+  background-color: #0190b1;
+}
+
+.actions button:last-child {
+  margin-right: 0;
+}
